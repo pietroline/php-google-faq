@@ -39,10 +39,14 @@
         margin-right: 2rem;
     }
 
+    header a{
+        text-decoration: none;
+        color: rgb(100, 100, 100);
+    }
+
     header .text{
         margin-left: 1rem;
         font-size: 1.5rem;
-        color: rgb(100, 100, 100);
     }
 
     header ul{
@@ -57,11 +61,23 @@
         margin-right: 2rem;
         padding-bottom: 0.3rem;
         color: rgb(100,100,100);
+        border-bottom: 3px solid transparent;
+    }
+
+    header li:hover{
+        border-color: #1a73e8;
+    }
+
+    header li:hover a{
+        color: #1a73e8;
     }
 
     header li.active{
         border-bottom: 3px solid #1a73e8;
-        color: #1a73e8
+    }
+
+    header li.active a{
+        color: #1a73e8;
     }
 
     .ms_grid{
