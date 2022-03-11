@@ -26,6 +26,19 @@
 
 
 /* inizio regole header */
+    header{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 6rem;
+        background-color: white;
+        padding: 1rem 0;
+    }
+
+    header .ms_header_right{
+        margin-right: 2rem;
+    }
+
     header .text{
         margin-left: 1rem;
         font-size: 1.5rem;
@@ -73,6 +86,7 @@
 /* inizio regole main */
     main{
         width: 80%;
+        padding: 2rem 0;
         margin: 2rem auto;
         color: rgb(50, 50, 50);
     }

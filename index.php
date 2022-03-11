@@ -53,14 +53,14 @@
 
         <header>
             
-            <div class="ms_flex ms_justify-content-between">
+            <div class="ms_flex ms_justify-content-between a">
 
                 <div class="ms_flex ms_align-items-center">
                     <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="logo Google">
                     <span class="text">Privacy e termini</span>
                 </div>
 
-                <div class="ms_flex ms_align-items-center">
+                <div class="ms_flex ms_align-items-center ms_header_right">
                     <i class="fas fa-th ms_grid"></i>
                     <button>Accedi</button>
                 </div>
