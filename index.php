@@ -1,7 +1,5 @@
 <?php
 
-use function PHPSTORM_META\elementType;
-
     $array = [
         [
             "ask" => "Come state implementando la recente decisione della Corte di giustizia dell'Unione europea (CGUE) relativa al diritto all'oblio?",
@@ -25,12 +23,12 @@ use function PHPSTORM_META\elementType;
                 foreach($value as $answer)
                     echo $answer;
             }
-            
+              
         }
     }
 
    
-    // safsdfdfd
+  
 
 
 
