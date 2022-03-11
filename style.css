@@ -10,6 +10,11 @@
         margin: 1rem;
     }
 
+    a{
+        text-decoration: none;
+        color: #3367d6;
+    }
+
     .ms_flex{
         display: flex;
     }
@@ -47,6 +52,7 @@
     header .text{
         margin-left: 1rem;
         font-size: 1.5rem;
+        color: rgb(100, 100, 100);
     }
 
     header ul{
