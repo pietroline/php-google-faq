@@ -1,0 +1,72 @@
+/* inizio regole generali */
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        margin: 1rem;
+    }
+
+    .ms_flex{
+        display: flex;
+    }
+
+    .ms_align-items-center{
+        align-items: center;
+    }
+
+    .ms_justify-content-between{
+        justify-content: space-between;
+    }
+
+/* fine regole generali */
+
+
+/* inizio regole header */
+    header .text{
+        margin-left: 1rem;
+        font-size: 1.5rem;
+        color: rgb(100, 100, 100);
+    }
+
+    header ul{
+        margin-top: 1rem;
+        border-bottom: 1px solid lightgray;
+        padding-bottom: 0.5rem;
+    }
+
+    header li{
+        display: inline;
+        list-style: none;
+        margin-right: 2rem;
+        padding-bottom: 0.3rem;
+        color: rgb(100,100,100);
+    }
+
+    header li.active{
+        border-bottom: 3px solid #1a73e8;
+        color: #1a73e8
+    }
+
+    .ms_grid{
+        margin-right: 1.2rem;
+        font-size: 1.5rem;
+        color: rgb(100,100,100);
+    }
+
+    button{
+        background-color: #1a73e8;
+        border-color: #1a73e8;
+        color: white;
+        padding: 0.5rem 1.8rem;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    
+/* fine regole header */
+
+
+
