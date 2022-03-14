@@ -79,19 +79,13 @@
         <main>
 
             <?php 
-                for($i=0; $i<count($array); $i++){
-                    foreach($array[$i] as $key => $value){
-                        if($key == "ask"){
-                            echo "<h2>$value</h2>";
-                        }else{
-                            echo "<ul>";
-                            foreach($value as $answer){
-                                echo "<li>$answer</li>";
-                            }
-                            echo "</ul>";
-                        }     
-                    }
+
+            foreach($array as $value){
+                echo "<h2>" . $value["ask"] . "</h2>";
+                for($i=0; $i<count($value["answer"]); $i++){
+                    echo "<p>" . $value["answer"][$i] . "</p>";
                 }
+            }
             ?>
 
         </main>
